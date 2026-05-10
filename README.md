@@ -22,3 +22,19 @@ Finite-variable soundness requires that every exported constraint remain inside 
 ## Boundary
 
 This repository is a proof-hygiene and status-isolation layer only.
+
+<!-- FO4_SOURCE_OF_TRUTH_BEGIN -->
+## Source of Truth
+
+This repository is the canonical public FO4 constraint-isolation package.
+
+Canonical status: `FO4_CONSTRAINT_ISOLATION_ONLY`
+
+Canonical artifact: `artifacts/fo4_constraint_isolation.json`
+
+Canonical verifier: `python3 tools/verify_fo4_constraint_isolation.py`
+
+Canonical boundary:
+
+This repository isolates the FO^4 variable-budget constraint surface. It does not prove unrestricted graph rigidity, unrestricted Cayley-graph rigidity, Chronos-RR, H4.1/FGL, UniversalFiberEntropyGap, P vs NP, or any Clay-problem result.
+<!-- FO4_SOURCE_OF_TRUTH_END -->
