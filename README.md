@@ -38,3 +38,17 @@ Canonical boundary:
 
 This repository isolates the FO^4 variable-budget constraint surface. It does not prove unrestricted graph rigidity, unrestricted Cayley-graph rigidity, Chronos-RR, H4.1/FGL, UniversalFiberEntropyGap, P vs NP, or any Clay-problem result.
 <!-- FO4_SOURCE_OF_TRUTH_END -->
+
+## FO4 Math-AI Terminal Question
+
+Status: `OPEN_PROBLEM_REQUIRED`
+
+Terminal object: `FO4CycleOverlapRankRigidityDichotomy`
+
+Weakest missing object: `FO4CycleOverlapRankRigidity_or_CounterexampleFamily`
+
+Canonical artifact: `artifacts/fo4_math_ai_terminal_question_2026_05_12.json`
+
+Canonical verifier: `python3 tools/verify_fo4_math_ai_terminal_question.py`
+
+Boundary: this records the full terminal question needed to move beyond FO4 constraint isolation. It does not prove unrestricted graph rigidity, unrestricted Cayley-graph rigidity, Chronos-RR, H4.1/FGL, UniversalFiberEntropyGap, P vs NP, or any Clay-problem result.

@@ -1,0 +1,32 @@
+{
+  "artifact": "fo4_math_ai_terminal_question",
+  "date": "2026-05-12",
+  "repository": "fo4-constraint-isolation",
+  "status": "OPEN_PROBLEM_REQUIRED",
+  "logic_surface": "FO4",
+  "variable_budget": 4,
+  "theorem_closure": false,
+  "terminal_question": {
+    "name": "FO4CycleOverlapRankRigidityDichotomy",
+    "weakest_sufficient_form": "For fixed finite parameters Delta and R, and for a fixed FO4 radius-R rooted local type notion, prove exactly one branch: either a uniform bound B(Delta,R) on R-local cycle-overlap rank for every connected finite graph of maximum degree at most Delta whose vertices share one FO4 radius-R rooted type, or a connected finite graph family with unbounded R-local cycle-overlap rank whose vertices share one FO4 radius-R rooted type."
+  },
+  "missing_lemma": "FO4CycleOverlapRankRigidity_or_CounterexampleFamily",
+  "blocked_until": [
+    "formal definition of FO4 radius-R rooted local type inside this repo",
+    "formal definition of R-local cycle-overlap rank inside this repo",
+    "proof of rigidity branch or explicit counterexample-family branch"
+  ],
+  "conditional_downstream": [
+    "If the rigidity branch is proved, this repo may support a narrow FO4 local-rigidity input.",
+    "If the counterexample branch is proved, unrestricted FO4 local-rigidity promotion is refuted at this surface."
+  ],
+  "non_claims": [
+    "no unrestricted graph-rigidity theorem",
+    "no unrestricted Cayley-graph rigidity theorem",
+    "no Chronos-RR closure",
+    "no H4.1/FGL closure",
+    "no UniversalFiberEntropyGap theorem",
+    "no P vs NP result",
+    "no Clay-problem closure"
+  ]
+}
