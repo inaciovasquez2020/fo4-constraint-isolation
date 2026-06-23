@@ -1,0 +1,44 @@
+{
+  "artifact": "fo4_finite_witness_search_target",
+  "date": "2026-06-23",
+  "repository": "fo4-constraint-isolation",
+  "status": "FINITE_WITNESS_SEARCH_TARGET_ONLY",
+  "logic_surface": "FO4",
+  "variable_budget": 4,
+  "theorem_closure": false,
+  "depends_on": "fo4_math_ai_terminal_question",
+  "target_object": {
+    "name": "FO4FiniteCycleOverlapWitnessSearch",
+    "purpose": "Make the terminal dichotomy experimentally inspectable on finite bounded graph families without claiming either branch.",
+    "bounded_parameters": [
+      "finite maximum degree Delta",
+      "finite radius R",
+      "finite graph-size cap N",
+      "declared FO4 radius-R rooted local type proxy",
+      "declared R-local cycle-overlap rank proxy"
+    ]
+  },
+  "admissible_output": [
+    "finite witness candidate",
+    "finite obstruction candidate",
+    "empty bounded search result"
+  ],
+  "blocked_until": [
+    "formal definition of FO4 radius-R rooted local type inside this repo",
+    "formal definition of R-local cycle-overlap rank inside this repo",
+    "verified finite graph enumerator or externally supplied finite witness corpus",
+    "proof that the finite proxy agrees with the intended FO4/rank definitions on the searched class"
+  ],
+  "non_claims": [
+    "does not solve FO4CycleOverlapRankRigidityDichotomy",
+    "does not prove the rigidity branch",
+    "does not prove the counterexample-family branch",
+    "does not prove unrestricted graph-rigidity",
+    "does not prove unrestricted Cayley-graph rigidity",
+    "does not prove Chronos-RR",
+    "does not prove H4.1/FGL",
+    "does not prove UniversalFiberEntropyGap",
+    "does not prove P vs NP",
+    "does not close any Clay problem"
+  ]
+}
